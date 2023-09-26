@@ -1,0 +1,253 @@
+{
+  "id": "ca690b87-2205-45e0-be96-29f6b1f28cfd",
+  "version": "2.0",
+  "name": "testApp",
+  "url": "https://the-internet.herokuapp.com",
+  "tests": [{
+    "id": "7122d2a6-1bb1-4740-b3f6-489e7dbc1883",
+    "name": "App",
+    "commands": [{
+      "id": "590761ab-e285-41cb-80b8-635bf2b8345f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3283b0a-b5ad-4559-9fa7-a1173a28a490",
+      "comment": "",
+      "command": "//eyes set viewport size",
+      "target": "578x320",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4776808-bcb7-475e-95fb-42929f3238d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=flash-messages",
+      "targets": [
+        ["id=flash-messages", "id"],
+        ["css=#flash-messages", "css:finder"],
+        ["xpath=//div[@id='flash-messages']", "xpath:attributes"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dbc0841-5c32-4d37-adc7-3dec93eff05b",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb07de44-2823-42b2-95ee-575efd03f684",
+      "comment": "",
+      "command": "//eyes set viewport size",
+      "target": "578x320",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71831b04-a902-4b58-b72d-4b51ce013302",
+      "comment": "",
+      "command": "eyesSetMatchLevel",
+      "target": "Strict",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25979d5e-06b9-4ba9-8d5c-0e1c181778ed",
+      "comment": "",
+      "command": "//eyes set viewport size",
+      "target": "578x320",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85a77ffd-9960-4897-a001-ad032ce20455",
+      "comment": "",
+      "command": "//eyes set viewport size",
+      "target": "578x320",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee417c6c-b8b4-4814-bfe6-7e36b401dd71",
+      "comment": "",
+      "command": "eyesCheckElement",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='content']/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Available Examples')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8dce7e-c2ef-4b5d-bbcd-f6900560e8a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Disappearing Elements",
+      "targets": [
+        ["linkText=Disappearing Elements", "linkText"],
+        ["css=li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Disappearing Elements')]", "xpath:link"],
+        ["xpath=//div[@id='content']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/disappearing_elements')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Disappearing Elements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb117141-ef6f-4425-a9b0-ee79afe33b94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='content']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50ed9465-d7e0-4f3a-afb6-33abc60d894a",
+      "comment": "",
+      "command": "//click",
+      "target": "css=li:nth-child(4) > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46fe00ab-ea3c-4443-9841-8347b1f2df1f",
+      "comment": "",
+      "command": "//set window size",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d51e63a5-5189-460f-b893-ecbd57f0ada6",
+    "name": "login",
+    "commands": [{
+      "id": "35febfc8-eda0-4830-aeaf-d4d0ed77a2cb",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16460440-9ee7-4d55-8f1b-4c4a63eee659",
+      "comment": "",
+      "command": "//open",
+      "target": "entry.ad/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ae06542-b842-45ce-8a8d-064f9b204db6",
+      "comment": "",
+      "command": "store",
+      "target": "victor",
+      "targets": [],
+      "value": "username"
+    }, {
+      "id": "bb5709c4-e90f-424a-80b5-c111be89a3e4",
+      "comment": "",
+      "command": "store",
+      "target": "password",
+      "targets": [],
+      "value": "1989"
+    }, {
+      "id": "65bc5a94-c1f7-49d6-ab93-2544e362fce6",
+      "comment": "",
+      "command": "run",
+      "target": "login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4acd37f9-afe0-4ef3-945c-dcc168305661",
+      "comment": "",
+      "command": "eyesCheckWindow",
+      "target": "Logged in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b357dc49-8830-47b2-8c31-567fc2d492d8",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=flash",
+      "targets": [],
+      "value": "you logged into a secure area"
+    }, {
+      "id": "90c6781a-0a1f-4998-9e3b-303163e7c4d4",
+      "comment": "",
+      "command": "eyesSetViewportSize",
+      "target": "1260x1027",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22a04979-4224-4828-8175-daa5def82d12",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9d279d94-a9fc-4d33-bde0-fa72e5bb92cd",
+    "name": "login1",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "5f80f26e-3d1e-4909-9bb1-0f39df54f1bc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7122d2a6-1bb1-4740-b3f6-489e7dbc1883"]
+  }],
+  "urls": ["https://the-internet.herokuapp.com/"],
+  "plugins": [{
+    "id": "fbnkflkahhlmhdgkddaafgnnokifobik",
+    "name": "Applitools",
+    "version": "1.0.0"
+  }],
+  "snapshot": {
+    "globalConfig": {
+      "snapshot": "const { Eyes, Target } = require('@applitools/eyes-selenium');global.Target = Target;const { ConsoleLogHandler, BatchInfo, AccessibilityLevel, AccessibilityGuidelinesVersion } = require('@applitools/eyes-sdk-core');let apiKey = process.env.APPLITOOLS_API_KEY, serverUrl = process.env.APPLITOOLS_SERVER_URL, appName = \"testApp\", batchId = configuration.runId, batchName;"
+    },
+    "suites": [{
+      "name": "Default Suite",
+      "persistSession": false,
+      "snapshot": {
+        "hook": "beforeAll(async () => {batchName = \"Default Suite\";});beforeEach(async () => {global.eyes = Eyes.fromBrowserInfo(serverUrl, configuration.params.eyesDisabled, configuration.params.eyesRendering ? { browser: configuration.params.eyesRendering } : undefined);\neyes.setApiKey(apiKey);eyes.getBaseAgentId = () => (\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setAgentId(\"eyes.seleniumide.runner.\" + (eyes._isVisualGrid ? \"visualgrid\" : \"local\") + \"/1.14.0\");\neyes.setBatch(new BatchInfo(batchName, undefined, batchId));\nif(!eyes._isVisualGrid) {\n\teyes.setHideScrollbars(true);\n\teyes.setStitchMode(\"CSS\");\n}\neyes.setSendDom(configuration.params.eyesDomUploadEnabled === undefined ? true : configuration.params.eyesDomUploadEnabled);\nif (configuration.params.eyesLogsEnabled) {\n\teyes.setLogHandler(new ConsoleLogHandler(true));\n}\nif (configuration.params.eyesAccessibilityLevel) {\n\tconst _config = eyes.getConfiguration();\n\t_config.setAccessibilityValidation(\n\t\t{\n\t\t\tlevel: AccessibilityLevel[configuration.params.eyesAccessibilityLevel],\n\t\t\tguidelinesVersion: AccessibilityGuidelinesVersion.WCAG_2_0,\n\t\t}\n\t)\n\teyes.setConfiguration(_config);\n}});afterEach(async () => {if (eyes._isOpen) {eyes.getEyesRunner ? await eyes.getEyesRunner().getAllResults() : await eyes.close();}});"
+      }
+    }],
+    "tests": [{
+      "id": "7122d2a6-1bb1-4740-b3f6-489e7dbc1883",
+      "snapshot": {
+        "commands": {
+          "4dbc0841-5c32-4d37-adc7-3dec93eff05b": "if (!opts.isNested) {await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "71831b04-a902-4b58-b72d-4b51ce013302": "eyes.setMatchLevel(\"Strict\");",
+          "ee417c6c-b8b4-4814-bfe6-7e36b401dd71": "if (!opts.isNested) {await driver.wait(until.elementLocated(By.css(`h2`)), configuration.timeout); await eyes.check(\"\" || (new URL(await driver.getCurrentUrl())).pathname, Target.region(By.css(`h2`)).webHook(preRenderHook));}"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"App\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }, {
+      "id": "d51e63a5-5189-460f-b893-ecbd57f0ada6",
+      "snapshot": {
+        "commands": {
+          "4acd37f9-afe0-4ef3-945c-dcc168305661": "if (!opts.isNested) {await eyes.check(\"Logged in\" || (new URL(await driver.getCurrentUrl())).pathname, Target.window().webHook(preRenderHook).fully(true));}",
+          "90c6781a-0a1f-4998-9e3b-303163e7c4d4": "await eyes.setViewportSize({width: 1260, height: 1027});"
+        },
+        "setupHooks": ["const _driver = driver;driver = await eyes.open(driver, appName, \"login\");global.preRenderHook = \"\";"],
+        "teardownHooks": ["driver = _driver;"]
+      }
+    }]
+  },
+  "dependencies": {
+    "@applitools/eyes-selenium": "4.44.0"
+  },
+  "jest": {
+    "extraGlobals": ["Math"]
+  }
+}
